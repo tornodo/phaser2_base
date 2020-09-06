@@ -1,2 +1,2 @@
 @echo off
-httpserver 8080
+httpserver 8000

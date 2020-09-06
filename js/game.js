@@ -4,7 +4,7 @@
  *  微信公众号： 工匠前沿
  */
 
-var game = new Phaser.Game(600, 150, Phaser.AUTO, 'game');
+var game = new Phaser.Game(600, 600, Phaser.AUTO, 'game');
 
 game.states = {};
 // 引导
@@ -13,7 +13,6 @@ game.states.boot = function() {
         this.load.image('loading', 'assets/image/progress.png');
     },
     this.create = function() {
-        this.state.start('preloader');
     }
 }
 // 用来显示资源加载进度
